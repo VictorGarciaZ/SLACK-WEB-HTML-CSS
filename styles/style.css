@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body, .root {
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  padding: 18px;
+  background-color: #521554;
+  color: white;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-nav__logo {
+  height: 15px;
+  margin-left: 20px;
+  align-self: center;
+}
+.header-nav__menu2 {
+
+}
+.header__signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__image {
+  background-image: url("https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/2019-01_BrandRefresh_slack-brand-refresh_unfurl-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.trust {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #F4EDE3;
+}
+.trust__companies {
+  padding: 18px;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+.trust__feature:nth-child(odd) {
+  text-align: right;
+}
+.trust-feature__details {
+  padding: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
